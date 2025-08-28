@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Quiz</h1>
+        <p class="description">Test your knowledge with these 5 multiple-choice questions. Click on answers to see if you're correct!</p>
+    </header>
+    
+    <div class="container">
+        <h2>Test Your Knowledge</h2>
+        
+        <div class="question">
+            <p>1. What does HTML stand for?</p>
+            <div class="options">
+                <div class="option" data-correct="false">
+                    <span class="option-label">A</span>
+                    Hyperlinks and Text Markup Language
+                </div>
+                <div class="option" data-correct="true">
+                    <span class="option-label">B</span>
+                    Hyper Text Markup Language
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">C</span>
+                    Home Tool Markup Language
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">D</span>
+                    Hyper Text Making Language
+                </div>
+                <div class="explanation">
+                    HTML stands for Hyper Text Markup Language, which is the standard markup language for creating web pages.
+                </div>
+            </div>
+        </div>
+        
+        <div class="question">
+            <p>2. Which CSS property is used to change the background color?</p>
+            <div class="options">
+                <div class="option" data-correct="false">
+                    <span class="option-label">A</span>
+                    color
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">B</span>
+                    bgcolor
+                </div>
+                <div class="option" data-correct="true">
+                    <span class="option-label">C</span>
+                    background-color
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">D</span>
+                    background
+                </div>
+                <div class="explanation">
+                    The background-color property is specifically used to set the background color of an element.
+                </div>
+            </div>
+        </div>
+        
+        <div class="question">
+            <p>3. Which of the following is not a programming language?</p>
+            <div class="options">
+                <div class="option" data-correct="false">
+                    <span class="option-label">A</span>
+                    Python
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">B</span>
+                    JavaScript
+                </div>
+                <div class="option" data-correct="true">
+                    <span class="option-label">C</span>
+                    HTML
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">D</span>
+                    Java
+                </div>
+                <div class="explanation">
+                    HTML is a markup language used for creating web pages, but it is not a programming language as it doesn't have logic constructs.
+                </div>
+            </div>
+        </div>
+        
+        <div class="question">
+            <p>4. Which symbol is used for comments in CSS?</p>
+            <div class="options">
+                <div class="option" data-correct="false">
+                    <span class="option-label">A</span>
+                    //
+                </div>
+                <div class="option" data-correct="true">
+                    <span class="option-label">B</span>
+                    /* */
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">C</span>
+                    &lt;!-- --&gt;
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">D</span>
+                    #
+                </div>
+                <div class="explanation">
+                    CSS uses /* */ to denote comments. The // syntax is used in JavaScript and other programming languages.
+                </div>
+            </div>
+        </div>
+        
+        <div class="question">
+            <p>5. What is the latest version of HTML as of 2023?</p>
+            <div class="options">
+                <div class="option" data-correct="false">
+                    <span class="option-label">A</span>
+                    HTML4
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">B</span>
+                    XHTML
+                </div>
+                <div class="option" data-correct="true">
+                    <span class="option-label">C</span>
+                    HTML5
+                </div>
+                <div class="option" data-correct="false">
+                    <span class="option-label">D</span>
+                    HTML6
+                </div>
+                <div class="explanation">
+                    HTML5 is the latest version of HTML, which introduced many new features and APIs for modern web development.
+                </div>
+            </div>
+        </div>
+        
+        <button class="submit-btn" id="submit-btn">Submit Quiz</button>
+        
+        <div class="score-container">
+            <p>Your score: <span class="score">0</span>/5</p>
+        </div>
+        
+        <div class="success-message" id="success-message">
+            <div class="success-icon">✓</div>
+            <h3 class="success-title">Quiz Completed Successfully!</h3>
+            <p>Congratulations on completing the HTML & CSS quiz. You can review your answers and explanations above.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Interactive Quiz | HTML, CSS </p>
+    </footer>
+
+
+   <script src="script.js"></script>
+       
+</body>
+</html>
